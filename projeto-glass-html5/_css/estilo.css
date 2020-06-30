@@ -8,9 +8,33 @@ body {
     color: rgba(0,0,0,1);
 }
 
+div#interface {
+
+    width: 900px;
+    margin: -20px auto 0px auto; /* cima, direita, baixo, esquerda */
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5); /* deslocamento lateral, desloc vertical, espalhamento sombra, cor sombra */
+    padding: 10px; /* Mesmo padrao da margin */
+}
+
 p {
     text-align: justify;
     text-indent: 50px;
+}
+
+header#cabecalho img#icone {
+
+    position: absolute;
+    left: 780px;
+    top: 40px;
+
+}
+
+header#cabecalho {
+
+    
+
+
 }
 
 /* Formatação de imagens com legendas */
@@ -93,3 +117,4 @@ nav#menu a {
 nav#menu a:hover {
     color: #ffffff;
 }
+
